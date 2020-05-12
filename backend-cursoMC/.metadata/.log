@@ -1158,3 +1158,39 @@ Caused by: java.lang.StackOverflowError
 	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.setProposals(CompletionProposalPopup.java:1180)
 	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$1.run(CompletionProposalPopup.java:376)
 	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.getSelectedProposal(CompletionProposalPopup.java:940)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 02:45:06.190
+!MESSAGE Preparing classpath changed notification backend-spring
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 02:45:06.191
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 02:45:06.201
+!MESSAGE classpath=113 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 02:45:06.209
+!MESSAGE buffering callback sts4.classpath.lFzdEGuY backend-spring false 113
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 02:45:06.210
+!MESSAGE executing callback sts4.classpath.lFzdEGuY 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 02:45:06.282
+!MESSAGE executing callback sts4.classpath.lFzdEGuY SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 02:45:35.539
+!MESSAGE Preparing classpath changed notification backend-spring
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 02:45:35.540
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 02:45:35.549
+!MESSAGE classpath=113 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 02:45:35.580
+!MESSAGE buffering callback sts4.classpath.lFzdEGuY backend-spring false 113
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 02:45:35.580
+!MESSAGE executing callback sts4.classpath.lFzdEGuY 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-12 02:45:35.592
+!MESSAGE executing callback sts4.classpath.lFzdEGuY SUCCESS [done]
