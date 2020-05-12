@@ -1,0 +1,5 @@
+package com.backendspring.marcosbitencourt.domain;
+
+public class Produto {
+
+}
