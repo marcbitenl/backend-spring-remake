@@ -1,0 +1,8 @@
+package com.backendspring.marcosbitencourt.domain;
+
+public class Categoria {
+	
+	private Integer id;
+	private String nome;
+
+}
