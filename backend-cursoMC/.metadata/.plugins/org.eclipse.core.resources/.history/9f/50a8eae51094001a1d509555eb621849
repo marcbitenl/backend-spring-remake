@@ -1,0 +1,5 @@
+package com.backendspring.marcosbitencourt.resources;
+
+public class CategoriaResource {
+
+}
