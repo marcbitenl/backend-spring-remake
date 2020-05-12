@@ -1,22 +1,13 @@
 package com.backendspring.marcosbitencourt;
 
-import java.util.Arrays;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.backendspring.marcosbitencourt.domain.Categoria;
-import com.backendspring.marcosbitencourt.repositories.CategoriaRepository;
 
 @SpringBootApplication
 public class BackendSpringApplication implements CommandLineRunner {
-	
-	
-	@Autowired
-	private CategoriaRepository categoriaRepository;
-	
 
 	public static void main(String[] args) {
 		SpringApplication.run(BackendSpringApplication.class, args);
@@ -25,10 +16,8 @@ public class BackendSpringApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		
-		Categoria cat1 = new Categoria(null, "Informática");
-		Categoria cat2 = new Categoria(null, "Escritório");
-		
-		categoriaRepository.saveAll(Arrays.asList(cat1, cat2));
+		Categoria cat1 = new Categorias(null, "Informática");
+		Categoria cat2 = new Categorias(null, "Escritório");
 		
 	}
 
