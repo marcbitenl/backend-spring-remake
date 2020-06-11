@@ -38,6 +38,12 @@ public class Cliente implements Serializable {
 	@CollectionTable(name = "TELEFONE")
 	private Set<String> telefones = new HashSet<>(); //conjunto Strings que representa telefone Set não deixa ser repetido
 	
+	
+	
+	@OneToMany(mappedBy = "cliente")
+	
+	private List<Pedido> pedidos = new ArrayList<>();
+	
 	public Cliente() {
 	}
 
@@ -113,6 +119,14 @@ public class Cliente implements Serializable {
 		result = prime * result + ((Id == null) ? 0 : Id.hashCode());
 		return result;
 	}
+	public List<Pedido> getPedidos() {
+		return pedidos;
+	}
+
+	public void setPedidos(List<Pedido> pedidos) {
+		this.pedidos = pedidos;
+	}
+
 
 	@Override
 	public boolean equals(Object obj) {
@@ -131,8 +145,7 @@ public class Cliente implements Serializable {
 		return true;
 	}
 
-	
-	
+
 	
 	
 	
