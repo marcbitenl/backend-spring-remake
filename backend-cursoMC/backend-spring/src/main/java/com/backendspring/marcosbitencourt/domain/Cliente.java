@@ -15,6 +15,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 import com.backendspring.marcosbitencourt.domain.enums.TipoCliente;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 
@@ -39,9 +40,8 @@ public class Cliente implements Serializable {
 	private Set<String> telefones = new HashSet<>(); //conjunto Strings que representa telefone Set não deixa ser repetido
 	
 	
-	
+	@JsonBackReference
 	@OneToMany(mappedBy = "cliente")
-	
 	private List<Pedido> pedidos = new ArrayList<>();
 	
 	public Cliente() {
