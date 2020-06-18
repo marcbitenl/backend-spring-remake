@@ -1,5 +1,0 @@
-package com.backendspring.marcosbitencourt.services;
-
-public class ObjectNotFoundException {
-
-}

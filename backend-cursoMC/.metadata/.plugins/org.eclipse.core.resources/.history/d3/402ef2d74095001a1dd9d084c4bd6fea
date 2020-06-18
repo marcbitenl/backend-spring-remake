@@ -1,5 +1,0 @@
-package com.backendspring.marcosbitencourt.resources.exceptions;
-
-public class StandardError {
-
-}
