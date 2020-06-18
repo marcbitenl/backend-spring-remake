@@ -111,7 +111,6 @@ INDEX VERSION 1.131+C:\WorkSpace-STS\backend-cursoMC\.metadata\.plugins\org.ecli
 1264104987.index
 2250085007.index
 2155685345.index
-218660671.index
 1326960214.index
 1004608433.index
 2586464718.index
