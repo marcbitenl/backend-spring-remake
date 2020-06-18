@@ -6741,3 +6741,127 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:10.498
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LlhIHSWq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:10.499
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LlhIHSWq
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:10.499
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:10.500
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LlhIHSWq => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:29.606
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:29.607
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@627cb3ed[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=631)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:29.608
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.719
+!MESSAGE Boot LS startup time from start to initialized: 2109ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.765
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.joNNiIBcisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.767
+!MESSAGE subscribing to classpath changes: sts4.classpath.joNNiIBc isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.768
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.768
+!MESSAGE subsribers = {sts4.classpath.joNNiIBc=Send Classpath Notifications(782)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.769
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.769
+!MESSAGE project backend-spring ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.770
+!MESSAGE Preparing classpath changed notification backend-spring
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.770
+!MESSAGE project Transferencias de contas ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.771
+!MESSAGE project Transferencias de contas 2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.771
+!MESSAGE project account ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.772
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.772
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.772
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.joNNiIBc => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.784
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.792
+!MESSAGE buffering callback sts4.classpath.joNNiIBc backend-spring false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.792
+!MESSAGE Preparing classpath changed notification Transferencias de contas
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.793
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.795
+!MESSAGE classpath=20 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.797
+!MESSAGE buffering callback sts4.classpath.joNNiIBc Transferencias de contas false 20
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.797
+!MESSAGE Preparing classpath changed notification Transferencias de contas 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.798
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.798
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.799
+!MESSAGE buffering callback sts4.classpath.joNNiIBc Transferencias de contas 2 false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.799
+!MESSAGE Preparing classpath changed notification account
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.800
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.810
+!MESSAGE classpath=76 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.817
+!MESSAGE buffering callback sts4.classpath.joNNiIBc account false 76
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.817
+!MESSAGE executing callback sts4.classpath.joNNiIBc 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-18 17:19:31.847
+!MESSAGE executing callback sts4.classpath.joNNiIBc SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-06-18 17:26:10.833
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
